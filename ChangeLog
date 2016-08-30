@@ -1,0 +1,74 @@
+2016-08-30 20:56:28 +0200 Mike Gabriel (1252420)
+
+	* release 0.0.1 (HEAD, master)
+
+2016-08-30 20:54:57 +0200 Mike Gabriel (447aae3)
+
+	* Docs: Use term "User Account" rather than only "Account".
+
+2016-08-30 20:49:58 +0200 Mike Gabriel (3ee44ff)
+
+	* Add VERSION file.
+
+2016-08-30 20:47:10 +0200 Mike Gabriel (c3aba9d)
+
+	* Add documentation (README.md, man page).
+
+2016-08-30 20:46:37 +0200 Mike Gabriel (911a78c)
+
+	* Add COPYING file.
+
+2016-08-30 20:46:30 +0200 Mike Gabriel (e995124)
+
+	* Major rewrite: Use Text::CSV instead of Anydata Perl package,
+          expect header at various locations on a system, handle
+          various exceptions more gracefully, etc.
+
+2016-08-29 13:32:39 +0200 Mike Gabriel (a3d575e)
+
+	* credential-sheets: Support reading template files from
+          ~/.credential-sheets/, /etc/credential-sheets or (as
+          fallback) /usr/share/credential-sheets).
+
+2016-08-29 12:38:44 +0200 Mike Gabriel (8378355)
+
+	* credential-sheets: Replace all occurrences of "credential-sheet(s)"
+          by basename($0).
+
+2016-08-25 12:25:25 +0200 Mike Gabriel (c740466)
+
+	* *-template.tex: Adapt variable field names to new help text.
+
+2016-08-25 12:23:19 +0200 Mike Gabriel (d2ca881)
+
+	* credential-sheet: Improve help text, abort if CSV files are not
+          provided on cmd line.
+
+2016-08-25 12:22:34 +0200 Mike Gabriel (019e10d)
+
+	* credential-sheet: Use perl -T in shebang.
+
+2016-08-25 11:09:46 +0200 Mike Gabriel (25d43ec)
+
+	* *-template.tex: Prefer \texttt{} over \verb. (itzks/master)
+
+2016-08-25 11:09:19 +0200 Mike Gabriel (2c814d2)
+
+	* credential-sheets: Skip processing empty CSV fields.
+
+2016-08-25 11:07:18 +0200 Mike Gabriel (079d8c9)
+
+	* credential-sheets: update copyright date
+
+2012-08-20 09:04:19 +0200 Mike Gabriel (509813e)
+
+	* add license header
+
+2012-08-20 09:00:21 +0200 Wolfgang Schweer (7533bdf)
+
+	* use verbatim expression instead of \texttt
+
+2012-08-13 09:50:26 +0200 Mike Gabriel (1ee6603)
+
+	* initial commit
+

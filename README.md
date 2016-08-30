@@ -78,6 +78,15 @@ Search paths for configuration files (in listed order):
 You can easily customize the resulting PDF files generated with this tool
 by placing your own template files, header and footer where appropriate.
 
+## Dependencies
+
+This project requires the following dependencies:
+
+  * Text::CSV Perl module
+  * Archive::Zip Perl module
+  * texlive-latex-base
+  * texlive-fonts-extra
+
 ## Copyright and License
 
 Copyright © 2012-2016, Mike Gabriel <mike.gabriel@das-netzwerkteam.de

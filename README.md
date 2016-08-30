@@ -1,4 +1,4 @@
-# credential-sheets: Account Credential Sheets Tool
+# credential-sheets: User Account Credential Sheets Tool
 
 ## Introduction
 

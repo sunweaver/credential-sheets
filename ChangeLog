@@ -1,6 +1,19 @@
-2016-08-30 20:56:28 +0200 Mike Gabriel (1252420)
+2016-08-30 21:07:56 +0200 Mike Gabriel (f74553a)
 
-	* release 0.0.1 (HEAD, master)
+	* release 0.0.2 (HEAD, master)
+
+2016-08-30 21:06:59 +0200 Mike Gabriel (be647f9)
+
+	* credential-sheets: Add missing line breaks in print statement.
+          (origin/master)
+
+2016-08-30 21:00:03 +0200 Mike Gabriel (ad9c127)
+
+	* README.md: List required dependencies to run credential-sheets.
+
+2016-08-30 20:56:28 +0200 Mike Gabriel (0095e93)
+
+	* release 0.0.1 (tag: 0.0.1)
 
 2016-08-30 20:54:57 +0200 Mike Gabriel (447aae3)
 

@@ -89,6 +89,6 @@ This project requires the following dependencies:
 
 ## Copyright and License
 
-Copyright © 2012-2016, Mike Gabriel <mike.gabriel@das-netzwerkteam.de
+Copyright © 2012-2016, Mike Gabriel <mike.gabriel@das-netzwerkteam.de>.
 
 Licensed under GPL-2+ (see COPYING file).

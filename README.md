@@ -85,6 +85,7 @@ This project requires the following dependencies:
   * Text::CSV Perl module
   * Archive::Zip Perl module
   * texlive-latex-base
+  * texlive-latex-extra
   * texlive-fonts-extra
 
 ## Copyright and License

@@ -43,8 +43,7 @@ column names:
   * **firstName** -- The user's first name(s)
   * **password** -- The user's password
   * **form** -- The form name/ID (student template only)
-  * **subjects** -- A list of subjects taught by a teacher (teacher
-    template only)
+  * **subjects** -- Subjects taught by a teacher (teachers template only)
 
 The shipped-with template \"wifivouchers\" can handle these column names:
 

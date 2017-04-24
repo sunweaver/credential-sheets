@@ -2,9 +2,10 @@
 
 ## Introduction
 
-After mass import of user accounts (e.g. into LDAP) most site
-administrators have to create information sheets (or snippets) containing
-those new  credentials (like username, password, policy of usage, etc.).
+After mass import of user accounts (e.g. into LDAP) or mass creation of
++WiFi voucher codes, most site administrators have to create information
+sheets (or snippets) containing those new  credentials (like username,
+password, policy of usage, etc.).
 
 With this tiny tool, providing these pieces of information to multiple
 users, becomes really simple. Account data is taken from a CSV file and
@@ -68,9 +69,9 @@ further details, see below.
 The ``credential-sheets`` tool uses these *configuration* files:
 
   * ``header.tex`` (LaTeX file header)
-  * ``<tpl-name>-template.tex`` (where as ``<tpl-name>`` ``students`` and
-    ``teachers`` is provided on default installations, this is extensible by
-    defining your own template files, see below).
+  * ``<tpl-name>-template.tex`` (whereas ``<tpl-name>`` ``students``,
+    ``teachers`` and ``wifivouchers`` are provided on default installations,
+    this is extensible by defining your own template files, see below).
   * ``footer.tex`` (LaTeX file footer)
 
 Search paths for configuration files (in listed order):

@@ -1,11 +1,68 @@
-2016-08-30 21:07:56 +0200 Mike Gabriel (f74553a)
+2017-04-24 12:27:13 +0200 Mike Gabriel (e9d087c)
 
-	* release 0.0.2 (HEAD, master)
+	* release 0.0.3 (HEAD, master)
+
+2017-04-24 11:56:51 +0200 Mike Gabriel (4febe8e)
+
+	* header.tex: Comment out loading the CM Bright font to avoid heavy
+          dependency on texlive-fonts-extra (adresses Debian bug
+          #836202).
+
+2017-04-24 11:51:59 +0200 Mike Gabriel (df0c88f)
+
+	* man page: Mention new wifivouchers template some other places in
+          the man page.
+
+2017-04-24 11:50:58 +0200 Mike Gabriel (77aea13)
+
+	* man page: backslash-escape more slashes
+
+2017-04-24 11:46:52 +0200 Mike Gabriel (a4d95b3)
+
+	* credential-sheets Perl script: typo fix in usage text.
+
+2017-04-24 11:46:16 +0200 Mike Gabriel (753a976)
+
+	* docs: Rephrase explanation for the subjects column.
+
+2017-04-24 11:45:17 +0200 Mike Gabriel (1e0b43d)
+
+	* Add wifiwouchers template plus its documentation.
+
+2016-08-31 12:33:42 +0200 Mike Gabriel (b5ac385)
+
+	* credential-sheets: Set $cmd with basename($0) and use that instead,
+          don't overly use print command in usage(). (origin/master)
+
+2016-08-31 12:27:55 +0200 Mike Gabriel (d2f2afe)
+
+	* credential-sheets: write errors to STDERR, not STDOUT.
+
+2016-08-31 10:46:02 +0200 Mike Gabriel (1b94559)
+
+	* README.md: Discovered one more dependency (for label.sty):
+          texlive-latex-extra.
+
+2016-08-31 10:44:44 +0200 Mike Gabriel (1592597)
+
+	* header.tex: Don't load ngerman language package.
+
+2016-08-30 22:21:08 +0200 Mike Gabriel (42b752f)
+
+	* README.md: Fix author's mail address and add full-stop at end of
+          sentence.
+
+2016-08-30 22:19:10 +0200 Mike Gabriel (1836fe8)
+
+	* credential-sheets.1 man page: Slight grammar fix.
+
+2016-08-30 21:07:56 +0200 Mike Gabriel (b8cef8e)
+
+	* release 0.0.2 (tag: 0.0.2)
 
 2016-08-30 21:06:59 +0200 Mike Gabriel (be647f9)
 
 	* credential-sheets: Add missing line breaks in print statement.
-          (origin/master)
 
 2016-08-30 21:00:03 +0200 Mike Gabriel (ad9c127)
 

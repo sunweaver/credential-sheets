@@ -35,7 +35,7 @@ their first line.
 The given column names have to map to the ``VAR-<column-name>``
 placeholders in ``credential-sheets``'s LaTeX templates.
 
-The shipped-with templates (``students``, ``teachers``) can handle these
+The shipped-with templates ``students`` and ``teachers`` can handle these
 column names:
 
   * **login** -- The user account's login id (uid)
@@ -45,6 +45,13 @@ column names:
   * **form** -- The form name/ID (student template only)
   * **subjects** -- A list of subjects taught by a teacher (teacher
     template only)
+
+The shipped-with template \"wifivouchers\" can handle these column names:
+
+  * **essid** -- The WiFi network's ESSID (network name)
+  * **login** -- The voucher\'s login id (if any)
+  * **code** -- The voucher\'s login code
+  * **duration** -- The duration period that the vouchers grants WiFi access
 
 If you create your own templates, you can be very flexible in using your
 own column names and template names. Only make sure that the column names
@@ -85,6 +92,7 @@ This project requires the following dependencies:
   * Text::CSV Perl module
   * Archive::Zip Perl module
   * texlive-latex-base
+  * texlive-latex-xetex
   * texlive-latex-extra
   * texlive-fonts-extra
 

@@ -1,6 +1,8 @@
 2026-08-12 Mike Gabriel
 
-        * release 0.0.5 (HEAD -> master, tag: 0.0.5)
+        * release 0.0.6 (HEAD -> master, tag: 0.0.6)
+        * credential-sheets: Fix char escaping (7651c93b)
+        * release 0.0.5 (2a848550) (tag: 0.0.5)
         * credential-sheets: Allow CSV columns to be used as variables
           multiple times in LaTeX templates. (5fd30d04)
         * release 0.0.4 (7fc20bc5) (tag: 0.0.4)
